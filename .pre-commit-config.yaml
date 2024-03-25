@@ -1,0 +1,28 @@
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+    -   id: check-toml
+    -   id: check-yaml
+    -   id: end-of-file-fixer
+    -   id: trailing-whitespace
+-   repo: https://github.com/pre-commit/mirrors-fixmyjs
+    rev: v2.0.0
+    hooks:
+    -   id: fixmyjs
+-   repo: https://github.com/psf/black
+    rev: 23.10.0
+    hooks:
+    -   id: black
+        exclude: prototypes/
+-   repo: https://github.com/PyCQA/pylint
+    rev: v3.0.1
+    hooks:
+    -   id: pylint
+        additional_dependencies:
+        - .
+        - beautifulsoup4
+        - flask
+        - recipe_scrapers
+        - requests
+        exclude: prototypes/|scripts/

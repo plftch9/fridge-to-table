@@ -1,0 +1,5 @@
+beautifulsoup4
+build
+flask
+recipe_scrapers
+requests
