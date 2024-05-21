@@ -1,8 +1,8 @@
 This project was contributed to by:
 
-Paul Fitch - plftch9
-Joe Lustri - sustainablelobster
-Amaka Black - blacknnwa
+Paul Fitch - plftch9;
+Joe Lustri - sustainablelobster;
+Amaka Black - blacknnwa;
 
 The goal of the program was to create a recipe recommendation system based on ingredients present in a user's home. The user submits a list of ingredients and the program finds reciepes that can be made with what is available.
 
